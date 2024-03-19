@@ -141,3 +141,13 @@
   font-weight: 900;
   font-style: normal;
 }
+
+@font-face {
+  font-family: "Right Grotesk Black";
+  src: url("../fonts/RightGrotesk-CompactBlack.otf");
+}
+
+@font-face {
+  font-family: "Right Grotesk";
+  src: url("../fonts/RightGrotesk-Medium.otf");
+}

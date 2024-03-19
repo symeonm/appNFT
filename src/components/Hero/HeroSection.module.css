@@ -1,0 +1,81 @@
+.textHero {
+  color: #1e1e1e;
+  font-family: "Biro Script Plus Bold US";
+  font-style: normal;
+  font-weight: 400;
+}
+
+.heroTitle {
+  color: #1e1e1e;
+  font-family: "Right Grotesk Black";
+  font-style: normal;
+  font-weight: 900;
+}
+
+.buttonHero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+
+  background: rgba(30, 30, 30, 0.1);
+  backdrop-filter: blur(6px);
+
+  font-family: "Right Grotesk Black";
+}
+
+@media screen and (max-width: 480px) {
+  .heroSection {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    position: relative;
+    top: -21px;
+  }
+
+  .textHero {
+    font-size: 16px;
+    line-height: 40px;
+    margin-bottom: 6px;
+    height: 27px;
+  }
+
+  .heroTitle {
+    font-size: 44px;
+    line-height: 44px;
+    letter-spacing: 0.44px;
+    margin-bottom: 8px;
+  }
+
+  .buttonHero {
+    width: 216px;
+    padding: 10px 64px 12px 64px;
+
+    border-radius: 8px;
+    color: #fff;
+
+    font-family: "Right Grotesk";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 19px;
+
+    position: relative;
+    top: -7px;
+    margin-bottom: 12px;
+  }
+
+  .heroLastText {
+    width: 217px;
+    color: #1e1e1e;
+    text-align: center;
+    font-family: "Messina Sans Mono";
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 14px;
+    text-transform: uppercase;
+  }
+}

@@ -24,7 +24,6 @@
   font-style: normal;
   font-weight: 600;
   line-height: 14px;
-  background-color: transparent;
 
   /* letter-spacing: 1.16px; */
 }
@@ -43,7 +42,7 @@
 
   .socialMenu {
     position: fixed;
-    top: 62px;
+    top: 8px;
     right: 16px;
   }
 

@@ -1,0 +1,126 @@
+.styleTitleAbout {
+  color: #fff;
+  font-family: "Right Grotesk";
+  font-style: normal;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+.styleTitleAboutTwo {
+  color: #dc3b5a;
+  font-family: "Right Grotesk";
+  font-style: normal;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+.textAbout {
+  color: #fff;
+  text-align: right;
+  font-family: "Messina Sans Mono";
+  font-style: normal;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.crossStyle {
+  width: 24px;
+  height: 24px;
+}
+
+.paragraphAbout {
+  color: #fff;
+  text-align: center;
+  font-family: "Messina Sans Mono";
+  font-style: normal;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+@keyframes marquee-infinite {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.containerTicker {
+  max-width: 100%;
+  overflow: hidden;
+  background-color: #dc3b5a;
+}
+
+.merquee {
+  width: 200%;
+  display: flex;
+  animation: marquee-infinite 5s linear infinite;
+}
+
+.tickerStyle {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  white-space: nowrap;
+
+  color: #fff;
+  font-family: "Right Grotesk";
+  font-style: normal;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+@media screen and (max-width: 480px) {
+  .aboutSection {
+    display: flex;
+    margin-top: 60px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .styleTitleAbout {
+    font-size: 40px;
+    line-height: 40px;
+  }
+
+  .styleTitleAboutTwo {
+    font-size: 40px;
+    line-height: 40px;
+  }
+  .textAbout {
+    width: 216px;
+    margin-top: 16px;
+    font-size: 16px;
+    line-height: 19px;
+  }
+
+  .crossStyle {
+    margin-top: 36px;
+    margin-bottom: 16px;
+  }
+
+  .paragraphAbout {
+    font-size: 12px;
+    line-height: 14px;
+    width: 216px;
+    margin-bottom: 40px;
+  }
+
+  .stylePicture {
+    max-height: 292px;
+  }
+
+  .tickerStyle {
+    font-size: 36px;
+    line-height: 36px;
+    height: 52px;
+  }
+
+  .crossTickerStyle {
+    width: 36px;
+    height: 36px;
+  }
+}
