@@ -29,7 +29,9 @@ export const HeaderSection = () => {
       <div className={css.socialMenu}>
         <ul className={css.navigationList}>
           <li className={css.menuButton}>
-            <button className={css.menuButtonText}>MENU</button>
+            <button type="button" className={css.menuButtonText}>
+              MENU
+            </button>
           </li>
           <li className={css.menuButton}>
             <a href="https://discord.com/">

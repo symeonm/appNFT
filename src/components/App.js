@@ -1,8 +1,9 @@
-import { AboutSection } from "./About/AboutSection";
 import css from "./App.module.css";
-
+import { AboutSection } from "./About/AboutSection";
+import { Faq } from "./FAQ/Faq";
 import { HeaderSection } from "./Header/HeaderSection";
 import { HeroSection } from "./Hero/HeroSection";
+import { MindMap } from "./MindMap/MindMapSection";
 
 function GlobalWrapper() {
   return (
@@ -12,6 +13,8 @@ function GlobalWrapper() {
         <HeroSection />
       </div>
       <AboutSection />
+      <MindMap />
+      <Faq />
     </div>
   );
 }

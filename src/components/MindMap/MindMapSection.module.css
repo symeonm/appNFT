@@ -1,0 +1,60 @@
+.titleMindMap {
+  color: #fff;
+  font-family: "Right Grotesk Black";
+}
+
+.cardText {
+  color: #fff;
+  font-family: "Messina Sans Mono";
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 14px; /* 116.667% */
+  text-transform: uppercase;
+}
+
+.cardTitle {
+  color: #fff;
+  font-family: "Right Grotesk Black";
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 32px; /* 100% */
+  text-transform: uppercase;
+}
+
+.cardContent {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 480px) {
+  .titleMindMap {
+    margin-top: 60px;
+    margin-bottom: 24px;
+    text-align: center;
+    font-size: 44px;
+    font-weight: 900;
+    line-height: 40px;
+    text-transform: uppercase;
+  }
+
+  .swiperSlider {
+    width: 216px !important;
+    height: 242px !important;
+    padding: 24px 12px;
+    border-radius: 12px;
+    background: #1e1e1e;
+  }
+  .swiperSlider:last-child {
+    background-color: #dc3b5a;
+  }
+
+  .arrowUpStyle {
+    margin-left: auto;
+    width: 24px;
+    height: 24px;
+  }
+}

@@ -15,7 +15,9 @@ export const HeroSection = () => {
         ></source>
         <img src={heroImage} alt="Мавпа в окулярах"></img>
       </picture>
-      <button className={css.buttonHero}>MEET APES</button>
+      <button type="button" className={css.buttonHero}>
+        MEET APES
+      </button>
       <p className={css.heroLastText}>
         YACHT APE IS A COLLECTION OF UNIQUE DIGITAL APES THAT YOU CAN OWN IN NFT
         FORMAT

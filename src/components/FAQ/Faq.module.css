@@ -1,0 +1,47 @@
+.faqCardTitle {
+  color: #fff;
+  font-family: "Right Grotesk Black";
+  font-style: normal;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+.faqTitle {
+  color: #fff;
+  font-family: "Right Grotesk Black";
+  font-style: normal;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+.faqText {
+  color: #fff;
+  font-family: "Messina Sans Mono";
+  font-style: normal;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+@media screen and (max-width: 480px) {
+  .faqCardTitle {
+    font-size: 20px;
+    line-height: 20px;
+  }
+
+  .faqTitle {
+    font-size: 44px;
+    line-height: 40px;
+    margin-top: 60px;
+  }
+
+  .faqSection {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .faqText {
+    font-size: 16px;
+    line-height: 19px;
+  }
+}
