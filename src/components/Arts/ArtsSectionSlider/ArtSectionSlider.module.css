@@ -1,0 +1,16 @@
+@media screen and (max-width: 480px) {
+  .swiperSlider {
+    width: 216px;
+    height: 242px;
+    border-radius: 12px;
+  }
+  .swiperSlider:last-child {
+    background-color: #dc3b5a;
+  }
+
+  .imageStyle {
+    width: 216px;
+    height: 242px;
+    border-radius: 12px;
+  }
+}

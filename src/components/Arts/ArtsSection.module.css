@@ -1,0 +1,17 @@
+.titleArt {
+  color: #fff;
+  font-family: "Right Grotesk Black";
+  font-style: normal;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+@media screen and (max-width: 480px) {
+  .titleArt {
+    text-align: center;
+    font-size: 44px;
+    line-height: 40px; /* 90.909% */
+    margin-top: 60px;
+    margin-bottom: 24px;
+  }
+}

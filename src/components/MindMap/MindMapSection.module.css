@@ -40,21 +40,4 @@
     line-height: 40px;
     text-transform: uppercase;
   }
-
-  .swiperSlider {
-    width: 216px !important;
-    height: 242px !important;
-    padding: 24px 12px;
-    border-radius: 12px;
-    background: #1e1e1e;
-  }
-  .swiperSlider:last-child {
-    background-color: #dc3b5a;
-  }
-
-  .arrowUpStyle {
-    margin-left: auto;
-    width: 24px;
-    height: 24px;
-  }
 }

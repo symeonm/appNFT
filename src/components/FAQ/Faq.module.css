@@ -22,10 +22,26 @@
   text-transform: uppercase;
 }
 
+.faqCardActive {
+  color: #dc3b5a;
+}
+
+.numberCard {
+  color: #dc3b5a;
+  font-family: "Biro Script Plus Bold US";
+  font-style: normal;
+  font-weight: 400;
+}
+
+.numberCardActive {
+  color: #fff;
+}
+
 @media screen and (max-width: 480px) {
-  .faqCardTitle {
-    font-size: 20px;
-    line-height: 20px;
+  .faqSection {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
   }
 
   .faqTitle {
@@ -34,14 +50,40 @@
     margin-top: 60px;
   }
 
-  .faqSection {
+  .cardList {
     display: flex;
     align-items: center;
     flex-direction: column;
+    margin-top: 24px;
+  }
+
+  .cardItem {
+    width: 216px;
+    padding: 8px;
+    border-radius: 12px;
+  }
+
+  .flexTitle {
+    display: flex;
+    align-items: baseline;
+  }
+
+  .numberCard {
+    width: 54px;
+    font-size: 12px;
+    line-height: 20px;
+  }
+
+  .faqCardTitle {
+    font-size: 20px;
+    line-height: 20px;
+    margin-left: 8px;
   }
 
   .faqText {
     font-size: 16px;
     line-height: 19px;
+    margin-top: 10px;
+    margin-left: 33px;
   }
 }

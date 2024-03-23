@@ -1,0 +1,66 @@
+[
+  {
+    "id": 1,
+    "alt": "Clown monkey",
+    "artsMob1x": "../mobileImages/arts/Ape1mob1x-min.jpg",
+    "artsMob2x": "../mobileImages/arts/Ape1mob2x-min.jpg",
+    "artsBig1x": "../ArtsSection/ArtsTabDesk/Ape1big1x-min.jpg",
+    "artsBig2x": "../ArtsSection/ArtsTabDesk/Ape1big2x-min.jpg"
+  },
+  {
+    "id": 2,
+    "alt": "The monkey is a star",
+    "artsMob1x": "../mobileImages/arts/Ape2mob1x-min.jpg",
+    "artsMob2x": "../mobileImages/arts/Ape2mob2x-min.jpg",
+    "artsBig1x": "../ArtsSection/ArtsTabDesk/Ape2big1x-min.jpg",
+    "artsBig2x": "../ArtsSection/ArtsTabDesk/Ape2big2x-min.jpg"
+  },
+  {
+    "id": 3,
+    "alt": "A monkey in glasses",
+    "artsMob1x": "../mobileImages/arts/Ape3mob1x-min.jpg",
+    "artsMob2x": "../mobileImages/arts/Ape3mob2x-min.jpg",
+    "artsBig1x": "../ArtsSection/ArtsTabDesk/Ape3big1x-min.jpg",
+    "artsBig2x": "../ArtsSection/ArtsTabDesk/Ape3big2x-min.jpg"
+  },
+  {
+    "id": 4,
+    "alt": "A monkey with an earring",
+    "artsMob1x": "../mobileImages/arts/Ape4mob1x-min.jpg",
+    "artsMob2x": "../mobileImages/arts/Ape4mob2x-min.jpg",
+    "artsBig1x": "../ArtsSection/ArtsTabDesk/Ape4big1x-min.jpg",
+    "artsBig2x": "../ArtsSection/ArtsTabDesk/Ape4big2x-min.jpg"
+  },
+  {
+    "id": 5,
+    "alt": "A monkey in a cap",
+    "artsMob1x": "../mobileImages/arts/Ape5mob1x-min.jpg",
+    "artsMob2x": "../mobileImages/arts/Ape5mob2x-min.jpg",
+    "artsBig1x": "../ArtsSection/ArtsTabDesk/Ape5big1x-min.jpg",
+    "artsBig2x": "../ArtsSection/ArtsTabDesk/Ape5big2x-min.jpg"
+  },
+  {
+    "id": 6,
+    "alt": "A monkey with a beard",
+    "artsMob1x": "../mobileImages/arts/Ape6mob1x-min.jpg",
+    "artsMob2x": "../mobileImages/arts/Ape6mob2x-min.jpg",
+    "artsBig1x": "../ArtsSection/ArtsTabDesk/Ape6big1x-min.jpg",
+    "artsBig2x": "../ArtsSection/ArtsTabDesk/Ape6big2x-min.jpg"
+  },
+  {
+    "id": 7,
+    "alt": "A monkey with big ears",
+    "artsMob1x": "../mobileImages/arts/Ape7mob1x-min.jpg",
+    "artsMob2x": "../mobileImages/arts/Ape7mob2x-min.jpg",
+    "artsBig1x": "../ArtsSection/ArtsTabDesk/Ape7big1x-min.jpg",
+    "artsBig2x": "../ArtsSection/ArtsTabDesk/Ape7big2x-min.jpg"
+  },
+  {
+    "id": 8,
+    "alt": "Monkey with a bottle",
+    "artsMob1x": "../mobileImages/arts/Ape8mob1x-min.jpg",
+    "artsMob2x": "../mobileImages/arts/Ape8mob2x-min.jpg",
+    "artsBig1x": "../ArtsSection/ArtsTabDesk/Ape8big1x-min.jpg",
+    "artsBig2x": "../ArtsSection/ArtsTabDesk/Ape8big2x-min.jpg"
+  }
+]

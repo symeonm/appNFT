@@ -1,0 +1,37 @@
+.contactTitle {
+  color: #fff;
+  font-family: "Right Grotesk Black";
+  font-style: normal;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+.contactText {
+  color: #fff;
+  text-align: center;
+  font-family: "Messina Sans Mono";
+  text-transform: uppercase;
+  font-style: normal;
+  font-weight: 400;
+}
+
+@media screen and (max-width: 480px) {
+  .contactTitle {
+    text-align: center;
+    font-size: 44px;
+    line-height: 40px;
+  }
+
+  .crossImg {
+    text-align: center;
+    width: 36px;
+    height: 36px;
+    margin-top: 24px;
+    margin-bottom: 16px;
+  }
+
+  .contactText {
+    font-size: 16px;
+    line-height: 19px; /* 118.75% */
+  }
+}
