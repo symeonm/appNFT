@@ -1,5 +1,5 @@
 {
-  "name": "appnft-softryzen",
+  "name": "appnft",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -13,7 +13,7 @@
     "swiper": "^11.0.7",
     "web-vitals": "^2.1.4"
   },
-  "homepage": "https://symeonm.github.io/appnft-softryzen",
+  "homepage": "https://symeonm.github.io/appnft",
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
