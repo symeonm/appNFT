@@ -3,7 +3,7 @@ import { MindMapSlider } from "./MindMapSlider/MindMapSlider";
 
 export const MindMap = () => {
   return (
-    <section>
+    <section id="#m-map">
       <h2 className={css.titleMindMap}>MIND MAP</h2>
       <MindMapSlider />
     </section>

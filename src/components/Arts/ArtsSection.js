@@ -3,7 +3,7 @@ import { ArtSectionSlider } from "./ArtsSectionSlider/ArtsSectionSlider";
 
 export const ArtsSection = () => {
   return (
-    <section>
+    <section id="#arts">
       <h2 className={css.titleArt}>COLLECTION</h2>
       <ArtSectionSlider />
     </section>

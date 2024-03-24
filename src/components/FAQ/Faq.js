@@ -22,7 +22,7 @@ export const Faq = () => {
   }
 
   return (
-    <section className={css.faqSection}>
+    <section id="#faq" className={css.faqSection}>
       <h2 className={css.faqTitle}>FAQ</h2>
       <ul className={css.cardList}>
         <li

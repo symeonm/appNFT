@@ -6,7 +6,7 @@ import { Ticker } from "./Ticker/Ticker";
 
 export const AboutSection = () => {
   return (
-    <section className={css.aboutSection}>
+    <section className={css.aboutSection} id="#about">
       <h2>
         <span className={css.styleTitleAbout}>
           A STORY THAT <br /> STARTED <br /> WITH
