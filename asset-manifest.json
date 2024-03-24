@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/appnft/static/css/main.baaee15e.css",
-    "main.js": "/appnft/static/js/main.df6637aa.js",
+    "main.css": "/appnft/static/css/main.03bdfe69.css",
+    "main.js": "/appnft/static/js/main.0c5eed32.js",
     "static/media/BiroScriptUSPlus-Sloppy.eot": "/appnft/static/media/BiroScriptUSPlus-Sloppy.5ca5e866111ab6b0e8a3.eot",
     "static/media/BiroScriptUSPlus-Sloppy.ttf": "/appnft/static/media/BiroScriptUSPlus-Sloppy.10812daae86fa2a0d3ab.ttf",
     "static/media/BiroScriptPlus-Sloppy.eot": "/appnft/static/media/BiroScriptPlus-Sloppy.857bca03a4cce14fd651.eot",
@@ -14,6 +14,7 @@
     "static/media/BiroScriptUSPlus-Bold.ttf": "/appnft/static/media/BiroScriptUSPlus-Bold.c25a918a0bfeeaf1fb9f.ttf",
     "static/media/BiroScriptPlus-Bold.eot": "/appnft/static/media/BiroScriptPlus-Bold.fa28c35bd5d22b56fa41.eot",
     "static/media/BiroScriptPlus-Bold.ttf": "/appnft/static/media/BiroScriptPlus-Bold.d59732f3d22e3d024577.ttf",
+    "static/media/image@2x.png": "/appnft/static/media/image@2x.24f411d839ef0e8f2af3.png",
     "static/media/BiroScriptUSPlus-Sloppy.woff": "/appnft/static/media/BiroScriptUSPlus-Sloppy.ca004f1481df9e606ef6.woff",
     "static/media/BiroScriptPlus-Sloppy.woff": "/appnft/static/media/BiroScriptPlus-Sloppy.4bb62738a943dc966f41.woff",
     "static/media/BiroScriptUSPlus-Regular.woff": "/appnft/static/media/BiroScriptUSPlus-Regular.4483a20e730fc372f0c6.woff",
@@ -33,6 +34,7 @@
     "static/media/BiroScriptPlus-Bold.woff2": "/appnft/static/media/BiroScriptPlus-Bold.ee2ea28fe92df0289248.woff2",
     "static/media/Ape4big2x-min.jpg": "/appnft/static/media/Ape4big2x-min.b492ecda5bfc6c604e04.jpg",
     "static/media/Ape3big2x-min.jpg": "/appnft/static/media/Ape3big2x-min.4777ef0f0d750cd2b693.jpg",
+    "static/media/image@1x.png": "/appnft/static/media/image@1x.0c7b425f12f8939a12e9.png",
     "static/media/Ape6big2x-min.jpg": "/appnft/static/media/Ape6big2x-min.0f22b3d8a8879625bb4a.jpg",
     "static/media/Ape5big2x-min.jpg": "/appnft/static/media/Ape5big2x-min.12934aab4cf9a90b6730.jpg",
     "static/media/Ape7big2x-min.jpg": "/appnft/static/media/Ape7big2x-min.64c7bbe98b907cf12399.jpg",
@@ -97,11 +99,11 @@
     "static/media/add-sharp.svg": "/appnft/static/media/add-sharp.53f6faacd8a4530d3035937eb58ec94f.svg",
     "static/media/add-sharpcrossMax.svg": "/appnft/static/media/add-sharpcrossMax.1cedc104e6b6f967852cef23a4097e26.svg",
     "static/media/VectorVectorCard.svg": "/appnft/static/media/VectorVectorCard.a9d980fecf8664800e05ff560411ced6.svg",
-    "main.baaee15e.css.map": "/appnft/static/css/main.baaee15e.css.map",
-    "main.df6637aa.js.map": "/appnft/static/js/main.df6637aa.js.map"
+    "main.03bdfe69.css.map": "/appnft/static/css/main.03bdfe69.css.map",
+    "main.0c5eed32.js.map": "/appnft/static/js/main.0c5eed32.js.map"
   },
   "entrypoints": [
-    "static/css/main.baaee15e.css",
-    "static/js/main.df6637aa.js"
+    "static/css/main.03bdfe69.css",
+    "static/js/main.0c5eed32.js"
   ]
 }
