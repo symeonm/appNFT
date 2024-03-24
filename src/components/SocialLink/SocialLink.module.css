@@ -13,6 +13,15 @@
   align-items: center;
 }
 
+.menuButtonMobile {
+  display: flex;
+  font-family: "Messina Sans Mono";
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(6px);
+  justify-content: center;
+  align-items: center;
+}
+
 .styleSvg {
   width: 16px;
   height: 16px;
@@ -20,6 +29,12 @@
 
 @media screen and (max-width: 480px) {
   .menuButton {
+    width: 48px;
+    height: 48px;
+    border-radius: 8px;
+  }
+
+  .menuButtonMobile {
     width: 48px;
     height: 48px;
     border-radius: 8px;

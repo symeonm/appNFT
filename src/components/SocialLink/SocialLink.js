@@ -5,23 +5,41 @@ import xSvg from "../../images/svg/logo1.svg";
 
 export const SocialLink = ({ isOpenMenu }) => {
   return (
-    <ul
-      style={{ filter: isOpenMenu ? "invert(100%) brightness(200%)" : "" }}
-      className={css.navigationList}
-    >
-      <li className={css.menuButton}>
+    <ul className={css.navigationList}>
+      <li className={isOpenMenu ? css.menuButtonMobile : css.menuButton}>
         <a href="https://discord.com/">
-          <img src={discordSvg} alt="Discord" className={css.styleSvg}></img>
+          <img
+            style={{
+              filter: isOpenMenu ? "invert(100%) brightness(200%)" : "",
+            }}
+            src={discordSvg}
+            alt="Discord"
+            className={css.styleSvg}
+          ></img>
         </a>
       </li>
-      <li className={css.menuButton}>
+      <li className={isOpenMenu ? css.menuButtonMobile : css.menuButton}>
         <a href="https://ship.edu/academics/colleges/coehs/social_work/">
-          <img src={shipSvg} alt="Ship" className={css.styleSvg}></img>
+          <img
+            style={{
+              filter: isOpenMenu ? "invert(100%) brightness(200%)" : "",
+            }}
+            src={shipSvg}
+            alt="Ship"
+            className={css.styleSvg}
+          ></img>
         </a>
       </li>
-      <li className={css.menuButton}>
+      <li className={isOpenMenu ? css.menuButtonMobile : css.menuButton}>
         <a href="https://twitter.com/?lang=uk">
-          <img src={xSvg} alt="X-twitter" className={css.styleSvg}></img>
+          <img
+            style={{
+              filter: isOpenMenu ? "invert(100%) brightness(200%)" : "",
+            }}
+            src={xSvg}
+            alt="X-twitter"
+            className={css.styleSvg}
+          ></img>
         </a>
       </li>
     </ul>
