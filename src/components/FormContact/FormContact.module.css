@@ -48,7 +48,7 @@
   text-transform: uppercase;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 767px) {
   .contactForm {
     display: flex;
     flex-direction: column;

@@ -24,7 +24,11 @@
   font-family: "Right Grotesk Black";
 }
 
-@media screen and (max-width: 480px) {
+.buttonHero :hover:focus {
+  color: #ffffff;
+}
+
+@media screen and (max-width: 767px) {
   .heroSection {
     display: flex;
     flex-direction: column;
@@ -81,5 +85,39 @@
     font-weight: 400;
     line-height: 14px;
     text-transform: uppercase;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .heroSection {
+    width: 591px;
+    height: 365.5px;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+  }
+
+  .textHero {
+    margin-top: 72px;
+    font-size: 20px;
+    line-height: 33px; /* 165% */
+  }
+
+  .heroTitle {
+    display: flex;
+    justify-content: space-between;
+    font-size: 92px;
+    line-height: 92px;
+    letter-spacing: 0.92px;
+  }
+
+  .heroImage {
+    width: 283px;
+    height: 386px;
+    position: absolute;
+    bottom: 0px;
+    left: 133px;
   }
 }

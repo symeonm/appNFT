@@ -27,7 +27,7 @@
   height: 16px;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 767px) {
   .menuButton {
     width: 48px;
     height: 48px;
@@ -38,5 +38,19 @@
     width: 48px;
     height: 48px;
     border-radius: 8px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .menuButton {
+    width: 48px;
+    height: 48px;
+    border-radius: 12px;
+  }
+
+  .menuButtonMobile {
+    width: 48px;
+    height: 48px;
+    border-radius: 12px;
   }
 }

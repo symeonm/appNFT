@@ -39,15 +39,24 @@
 
 .containerHero {
   position: relative;
-
   background-color: #dc3b5a;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 767px) {
   .containerHero {
     height: 542px;
     margin-left: 8px;
     margin-right: 8px;
     border-radius: 12px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .containerHero {
+    width: 736px;
+    height: 421px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 16px;
   }
 }

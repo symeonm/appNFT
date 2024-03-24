@@ -3,9 +3,16 @@
   height: 32px;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 767px) {
   .logoImage {
     margin-top: 16px;
     margin-left: 8px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .logoImage {
+    margin-top: 20px;
+    margin-left: 12px;
   }
 }

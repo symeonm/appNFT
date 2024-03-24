@@ -1,0 +1,47 @@
+@keyframes marquee-infinite {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.containerTicker {
+  width: 100%;
+  overflow: hidden;
+  background-color: #dc3b5a;
+}
+
+.merquee {
+  width: 200%;
+  display: flex;
+  animation: marquee-infinite 5s linear infinite;
+}
+
+.tickerStyle {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  white-space: nowrap;
+
+  color: #fff;
+  font-family: "Right Grotesk";
+  font-style: normal;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+@media screen and (max-width: 767px) {
+  .tickerStyle {
+    font-size: 36px;
+    line-height: 36px;
+    height: 52px;
+  }
+
+  .crossTickerStyle {
+    width: 36px;
+    height: 36px;
+  }
+}
