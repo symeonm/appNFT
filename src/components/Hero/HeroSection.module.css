@@ -5,6 +5,13 @@
   font-weight: 400;
 }
 
+.textHeroTwo {
+  color: #1e1e1e;
+  font-family: "Biro Script Plus Bold US";
+  font-style: normal;
+  font-weight: 400;
+}
+
 .heroTitle {
   color: #1e1e1e;
   font-family: "Right Grotesk Black";
@@ -48,12 +55,19 @@
     height: 27px;
   }
 
+  .textHeroTwo {
+    font-size: 16px;
+    line-height: 40px;
+    margin-bottom: 6px;
+    height: 27px;
+  }
+
   .heroTitle {
     font-size: 44px;
     line-height: 44px;
     letter-spacing: 0.44px;
     margin-bottom: 8px;
-    width: 230px;
+    width: 231px;
     text-align: center;
   }
 
@@ -100,9 +114,15 @@
   }
 
   .textHero {
-    margin-top: 72px;
     font-size: 20px;
-    line-height: 33px; /* 165% */
+    line-height: 33px;
+    margin-top: 72px;
+  }
+
+  .textHeroTwo {
+    font-size: 20px;
+    line-height: 33px;
+    margin-top: 16px;
   }
 
   .heroTitle {
@@ -111,6 +131,7 @@
     font-size: 92px;
     line-height: 92px;
     letter-spacing: 0.92px;
+    margin-bottom: 16px;
   }
 
   .heroImage {

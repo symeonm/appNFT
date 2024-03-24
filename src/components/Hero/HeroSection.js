@@ -20,7 +20,7 @@ export const HeroSection = () => {
         <span>YACHT</span>
         <span> APES</span>
       </h1>
-      <p className={css.textHero}>Apes aRe eveRywhere</p>
+      <p className={css.textHeroTwo}>Apes aRe eveRywhere</p>
       <picture className={css.heroImage}>
         <source
           media="(max-width: 767px)"
