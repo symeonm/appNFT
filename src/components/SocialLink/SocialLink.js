@@ -3,9 +3,12 @@ import discordSvg from "../../images/svg/discord_black.svg";
 import shipSvg from "../../images/svg/Logomark-Blue.svg";
 import xSvg from "../../images/svg/logo1.svg";
 
-export const SocialLink = () => {
+export const SocialLink = ({ isOpenMenu }) => {
   return (
-    <ul className={css.navigationList}>
+    <ul
+      style={{ filter: isOpenMenu ? "invert(100%) brightness(200%)" : "" }}
+      className={css.navigationList}
+    >
       <li className={css.menuButton}>
         <a href="https://discord.com/">
           <img src={discordSvg} alt="Discord" className={css.styleSvg}></img>

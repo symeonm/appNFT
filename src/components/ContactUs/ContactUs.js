@@ -3,7 +3,7 @@ import css from "./ContactUs.module.css";
 import { FormContact } from "../FormContact/FormContact";
 export const ContactUS = () => {
   return (
-    <section className={css.sectionContact}>
+    <section name="mint" className={css.sectionContact}>
       <h1 className={css.contactTitle}>Are you in?</h1>
       <img className={css.crossImg} src={cross} alt="Cross" />
       <p className={css.contactText}>

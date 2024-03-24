@@ -44,16 +44,16 @@ export const BurgerMenu = ({ toggleMenu, isOpenMenu }) => {
         >
           <LogoHeader />
         </div>
-        <div style={{ filter: "invert(100%) brightness(200%)" }}>
+        <div>
           <button
             type="button"
             aria-label="Close"
-            className={`${css.btnMenu} ${css.mobileItem}`}
+            className={css.btnMenu}
             onClick={toggleMenu}
           >
             CLOSE
           </button>
-          <SocialLink />
+          <SocialLink isOpenMenu={isOpenMenu} />
         </div>
       </div>
       <ul className={css.menuItems}>

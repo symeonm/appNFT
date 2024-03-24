@@ -24,17 +24,21 @@
 }
 
 .btnMenu {
-  color: #1e1e1e;
+  color: #fff;
   font-family: "Messina Sans Mono";
   font-size: 12px;
   font-weight: 600;
   line-height: 1.1667;
-  background-color: transparent;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(6px);
   border: none;
+  border-radius: 8px;
   cursor: pointer;
   transition: color 250ms var(--timing-function);
   margin-top: 8px;
-
+  margin-bottom: 10px;
+  width: 48px;
+  height: 48px;
   /* &:hover,
   &:focus {
     outline: none;
@@ -44,20 +48,6 @@
     outline: none;
     color: var(--primary-text-color);
   } */
-}
-
-.mobileItem {
-  pointer-events: auto;
-  display: flex;
-  width: 48px;
-  height: 48px;
-  padding: 10px;
-  justify-content: center;
-  align-items: center;
-  border-radius: 8px;
-  background: rgba(30, 30, 30, 0.1);
-  backdrop-filter: blur(6px);
-  margin-bottom: 10px;
 }
 
 .menuItems {

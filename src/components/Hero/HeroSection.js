@@ -1,8 +1,16 @@
 import css from "./HeroSection.module.css";
 import heroImage from "../../images/mobileImages/hero/hero_image@1x.png";
 import heroImage2x from "../../images/mobileImages/hero/hero_image@2x.png";
+import { scroller } from "react-scroll";
 
 export const HeroSection = () => {
+  const scrollerToMint = () => {
+    scroller.scrollTo("mint", {
+      duration: 1000,
+      smooth: "linear",
+    });
+  };
+
   return (
     <div className={css.heroSection}>
       <p className={css.textHero}>diD yOu seE iT ?</p>
@@ -15,7 +23,7 @@ export const HeroSection = () => {
         ></source>
         <img src={heroImage} alt="Мавпа в окулярах"></img>
       </picture>
-      <button type="button" className={css.buttonHero}>
+      <button type="button" className={css.buttonHero} onClick={scrollerToMint}>
         MEET APES
       </button>
       <p className={css.heroLastText}>
