@@ -24,15 +24,25 @@
   justify-content: center;
   align-items: center;
   gap: 10px;
+  color: #1e1e1e;
 
   background: rgba(30, 30, 30, 0.1);
   backdrop-filter: blur(6px);
 
   font-family: "Right Grotesk Black";
+
+  &:hover,
+  &:focus {
+    color: #ffffff;
+  }
 }
 
-.buttonHero :hover:focus {
-  color: #ffffff;
+.heroLastText {
+  color: #1e1e1e;
+  font-family: "Messina Sans Mono";
+  font-style: normal;
+  font-weight: 400;
+  text-transform: uppercase;
 }
 
 @media screen and (max-width: 767px) {
@@ -76,7 +86,6 @@
     padding: 10px 64px 12px 64px;
 
     border-radius: 8px;
-    color: #fff;
 
     font-family: "Right Grotesk";
     font-size: 16px;
@@ -91,14 +100,9 @@
 
   .heroLastText {
     width: 217px;
-    color: #1e1e1e;
     text-align: center;
-    font-family: "Messina Sans Mono";
     font-size: 12px;
-    font-style: normal;
-    font-weight: 400;
     line-height: 14px;
-    text-transform: uppercase;
   }
 }
 
@@ -140,5 +144,33 @@
     position: absolute;
     bottom: 0px;
     left: 133px;
+  }
+
+  .position {
+    position: absolute;
+    bottom: 35px;
+    right: 0;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: flex-end;
+    gap: 16px;
+  }
+
+  .buttonHero {
+    width: 190px;
+    height: 41px;
+    margin-bottom: 0;
+    padding: 0;
+
+    font-size: 16px;
+    line-height: 19px;
+    border-radius: 12px;
+  }
+
+  .heroLastText {
+    width: 190px;
+    text-align: right;
+    font-size: 12px;
+    line-height: 14px;
   }
 }

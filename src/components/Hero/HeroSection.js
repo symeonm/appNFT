@@ -4,6 +4,7 @@ import heroImageMobile2x from "../../images/mobileImages/hero/hero_image@2x.png"
 import heroImageTablet from "../../images/tabletImages/Hero/image@1x.png";
 import heroImageTablet2x from "../../images/tabletImages/Hero/image@2x.png";
 import { scroller } from "react-scroll";
+import { useMediaQuery } from "react-responsive";
 
 export const HeroSection = () => {
   const scrollerToMint = () => {
@@ -12,6 +13,8 @@ export const HeroSection = () => {
       smooth: "linear",
     });
   };
+
+  const isMobile = useMediaQuery({ query: "(max-width: 767px)" });
 
   return (
     <div className={css.heroSection}>
@@ -32,13 +35,27 @@ export const HeroSection = () => {
         ></source>
         <img src={heroImageMobile} alt="Мавпа в окулярах"></img>
       </picture>
-      <button type="button" className={css.buttonHero} onClick={scrollerToMint}>
-        MEET APES
-      </button>
-      <p className={css.heroLastText}>
-        YACHT APE IS A COLLECTION OF UNIQUE DIGITAL APES THAT YOU CAN OWN IN NFT
-        FORMAT
-      </p>
+      <div className={css.position}>
+        <button
+          type="button"
+          className={css.buttonHero}
+          onClick={scrollerToMint}
+        >
+          MEET APES
+        </button>
+        {isMobile ? (
+          <p className={css.heroLastText}>
+            YACHT APE IS A COLLECTION OF UNIQUE DIGITAL APES THAT YOU CAN OWN IN
+            NFT FORMAT
+          </p>
+        ) : (
+          <p className={css.heroLastText}>
+            YACHT APE IS A<br /> COLLECTION OF UNIQUE
+            <br /> DIGITAL APES THAT YOU CAN <br />
+            OWN IN NFT FORMAT
+          </p>
+        )}
+      </div>
     </div>
   );
 };
