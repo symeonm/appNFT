@@ -1,46 +1,25 @@
-.logoImage {
-  width: 48px;
-  height: 32px;
-}
-
-.discordSvg {
-  width: 16px;
-  height: 16px;
-}
-
-.menuButton {
-  display: flex;
-  font-family: "Messina Sans Mono";
-  background: rgba(30, 30, 30, 0.1);
-  backdrop-filter: blur(6px);
-  justify-content: center;
-  align-items: center;
-}
-
 .menuButtonText {
   color: #1e1e1e;
   font-family: "Messina Sans Mono";
-  font-size: 12px;
   font-style: normal;
   font-weight: 600;
-  line-height: 14px;
-
-  /* letter-spacing: 1.16px; */
-}
-
-.navigationList {
-  display: flex;
-  flex-direction: column;
-  gap: 8px;
+  background: rgba(30, 30, 30, 0.1);
+  backdrop-filter: blur(6px);
 }
 
 @media screen and (max-width: 480px) {
-  .logoImage {
-    margin-top: 16px;
-    margin-left: 8px;
+  .menuButtonText {
+    width: 48px;
+    height: 48px;
+    border-radius: 8px;
+    font-size: 12px;
+    line-height: 14px;
+    margin-bottom: 8px;
   }
+  /* letter-spacing: 1.16px; */
 
   .socialMenu {
+    display: inline-block;
     position: fixed;
     top: 8px;
     right: 16px;

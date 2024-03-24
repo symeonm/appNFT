@@ -38,6 +38,8 @@
 }
 
 .containerHero {
+  position: relative;
+
   background-color: #dc3b5a;
 }
 

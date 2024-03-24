@@ -1,0 +1,27 @@
+.navigationList {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.menuButton {
+  display: flex;
+  font-family: "Messina Sans Mono";
+  background: rgba(30, 30, 30, 0.1);
+  backdrop-filter: blur(6px);
+  justify-content: center;
+  align-items: center;
+}
+
+.styleSvg {
+  width: 16px;
+  height: 16px;
+}
+
+@media screen and (max-width: 480px) {
+  .menuButton {
+    width: 48px;
+    height: 48px;
+    border-radius: 8px;
+  }
+}

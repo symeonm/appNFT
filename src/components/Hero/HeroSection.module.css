@@ -31,8 +31,10 @@
     justify-content: center;
     align-items: center;
 
-    position: relative;
-    top: -21px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    top: 32px;
   }
 
   .textHero {
@@ -47,6 +49,8 @@
     line-height: 44px;
     letter-spacing: 0.44px;
     margin-bottom: 8px;
+    width: 230px;
+    text-align: center;
   }
 
   .buttonHero {

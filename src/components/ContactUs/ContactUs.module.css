@@ -16,14 +16,19 @@
 }
 
 @media screen and (max-width: 480px) {
+  .sectionContact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 60px;
+  }
+
   .contactTitle {
-    text-align: center;
     font-size: 44px;
     line-height: 40px;
   }
 
   .crossImg {
-    text-align: center;
     width: 36px;
     height: 36px;
     margin-top: 24px;
@@ -33,5 +38,6 @@
   .contactText {
     font-size: 16px;
     line-height: 19px; /* 118.75% */
+    width: 216px;
   }
 }

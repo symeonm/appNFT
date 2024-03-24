@@ -1,0 +1,97 @@
+.inputWrapper {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.contactField {
+  color: rgba(255, 255, 255, 0.24);
+  font-family: "Messina Sans Mono";
+  font-style: normal;
+  font-weight: 400;
+  text-transform: uppercase;
+
+  width: 168px;
+  height: 48px;
+  align-items: center;
+  padding: 22px 24px;
+  background: transparent;
+  border-radius: 0px 8px 8px 0px;
+  border: 1px solid #1e1e1e;
+  color: #fff;
+  z-index: 99;
+  box-sizing: border-box;
+  outline: none;
+}
+
+.errBorder {
+  border-color: #dc3b5a;
+}
+
+.errorMessage {
+  color: #dc3b5a;
+  text-align: right;
+  font-family: "Messina Sans Mono";
+  font-style: normal;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.buttonMint {
+  color: #fff;
+  font-family: "Right Grotesk Black";
+  font-style: normal;
+  font-weight: 900;
+  background: #dc3b5a;
+  backdrop-filter: blur(6px);
+  box-sizing: border-box;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+@media screen and (max-width: 480px) {
+  .contactForm {
+    display: flex;
+    flex-direction: column;
+    width: 216px;
+    margin-top: 16px;
+    border-radius: 8px;
+  }
+
+  .inputWrapper {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .imgInput {
+    width: 48px;
+    height: 48px;
+    padding: 12px;
+    border-radius: 8px 0px 0px 8px;
+    background: #1e1e1e;
+    backdrop-filter: blur(6px);
+    box-sizing: border-box;
+  }
+
+  .contactField {
+    font-size: 12px;
+    line-height: 14px; /* 116.667% */
+  }
+
+  .errBlock {
+    height: 16px;
+  }
+
+  .errorMessage {
+    width: 216px;
+    font-size: 10px;
+    line-height: 12px;
+  }
+
+  .buttonMint {
+    border-radius: 8px;
+    width: 216px;
+    height: 41px;
+    font-size: 16px;
+    line-height: 19px;
+  }
+}

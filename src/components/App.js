@@ -5,6 +5,8 @@ import { HeaderSection } from "./Header/HeaderSection";
 import { HeroSection } from "./Hero/HeroSection";
 import { MindMap } from "./MindMap/MindMapSection";
 import { ArtsSection } from "./Arts/ArtsSection";
+import { ContactUS } from "./ContactUs/ContactUs";
+import { Footer } from "./Footer/FooterSection";
 
 function GlobalWrapper() {
   return (
@@ -17,6 +19,8 @@ function GlobalWrapper() {
       <MindMap />
       <Faq />
       <ArtsSection />
+      <ContactUS />
+      <Footer />
     </div>
   );
 }

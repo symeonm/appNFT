@@ -1,0 +1,21 @@
+.footerText {
+  color: #fff;
+  font-family: "Messina Sans Mono";
+  font-style: normal;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+@media screen and (max-width: 480px) {
+  .footer {
+    padding-top: 60px;
+  }
+
+  .footerText {
+    width: 216px;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 12px;
+    line-height: 14px; /* 116.667% */
+  }
+}
