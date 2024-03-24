@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/appnft/static/css/main.82ea0af3.css",
-    "main.js": "/appnft/static/js/main.b09389da.js",
+    "main.css": "/appnft/static/css/main.6b8d5abb.css",
+    "main.js": "/appnft/static/js/main.40ded094.js",
     "static/media/BiroScriptUSPlus-Sloppy.eot": "/appnft/static/media/BiroScriptUSPlus-Sloppy.5ca5e866111ab6b0e8a3.eot",
     "static/media/BiroScriptUSPlus-Sloppy.ttf": "/appnft/static/media/BiroScriptUSPlus-Sloppy.10812daae86fa2a0d3ab.ttf",
     "static/media/BiroScriptPlus-Sloppy.eot": "/appnft/static/media/BiroScriptPlus-Sloppy.857bca03a4cce14fd651.eot",
@@ -99,11 +99,11 @@
     "static/media/add-sharp.svg": "/appnft/static/media/add-sharp.53f6faacd8a4530d3035937eb58ec94f.svg",
     "static/media/add-sharpcrossMax.svg": "/appnft/static/media/add-sharpcrossMax.1cedc104e6b6f967852cef23a4097e26.svg",
     "static/media/VectorVectorCard.svg": "/appnft/static/media/VectorVectorCard.a9d980fecf8664800e05ff560411ced6.svg",
-    "main.82ea0af3.css.map": "/appnft/static/css/main.82ea0af3.css.map",
-    "main.b09389da.js.map": "/appnft/static/js/main.b09389da.js.map"
+    "main.6b8d5abb.css.map": "/appnft/static/css/main.6b8d5abb.css.map",
+    "main.40ded094.js.map": "/appnft/static/js/main.40ded094.js.map"
   },
   "entrypoints": [
-    "static/css/main.82ea0af3.css",
-    "static/js/main.b09389da.js"
+    "static/css/main.6b8d5abb.css",
+    "static/js/main.40ded094.js"
   ]
 }
